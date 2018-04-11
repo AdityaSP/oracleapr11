@@ -112,6 +112,11 @@ use ssl : yes
 port : 465
 reply to : sp.aditya@gmail.com
 
+
+Publish error reports
+-------------------------
+
+
 select test configuration
 send test email after entering a reciepient address
 
@@ -146,6 +151,18 @@ Attach build log : yes
 Save
 trigger a build
 check your email
+
+Publish test results
+------------------------
+1. dashboard -> click on project1 -> configure -> postbuild actions -> Publish JUnit test ersult reports
+2. target/surefire-reports/*.xml
+
+Say yes to "Do not fail the build..."
+Save
+trigger a couple of builds
+refresh your project dashboard and then you will see test result trends
+
+
 
 
 
