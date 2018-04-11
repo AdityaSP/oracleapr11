@@ -18,3 +18,13 @@ https://jenkins.io/
 http://mirrors.jenkins.io/war-stable/latest/jenkins.war
 
 3. java -jar jenkins.war --httpPort=8090
+
+Create a project
+-------------------------------
+Click on new item on jenkins dashboard
+enter a name for your project (project1)
+select freestyle project
+click OK
+This will take you to the project configuration page
+click save
+your project project1 will show up on the home page of jenkins/dashboard
