@@ -117,7 +117,16 @@ send test email after entering a reciepient address
 
 
 
+Email notification on a failed build
+-------------------------------------
+dashboard-> Project1-> configure-> postbuild action -> email notification
+recipient : <email id>
 
+To manufacture an error : change install in build step to installasldfjq
+
+Save
+trigger a build
+check your email
 
 
 
