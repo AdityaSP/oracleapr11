@@ -1,1 +1,10 @@
+1. JDK 8 and install
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_121
+echo %JAVA_HOME%
+java -version
 
+2. Install jenkins
+https://jenkins.io/
+http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+
+3. java -jar jenkins.war --httpPort=8090
