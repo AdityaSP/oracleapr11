@@ -28,3 +28,36 @@ click OK
 This will take you to the project configuration page
 click save
 your project project1 will show up on the home page of jenkins/dashboard
+
+
+Configure Git
+-----------------------------
+download and install git ( if not already installed)
+https://git-scm.com/download/win
+
+dashboard -> manage jenkins -> Global tool configuration of jenkins
+
+Git 
+Add Git
+Name : git
+Executable path : git.exe
+
+Configure project to download code from Git
+-------------------------------------------
+Click on project -> click on configure
+under source code management
+select git
+https://github.com/AdityaSP/devopsdemo
+
+Save
+
+Trigger a build
+------------------------------------------
+click on build now - build #1 will start and should go to success
+
+Check the output
+-------------------------------
+click on the build number and it will show you the output
+
+
+
