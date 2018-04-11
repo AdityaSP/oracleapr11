@@ -59,5 +59,11 @@ Check the output
 -------------------------------
 click on the build number and it will show you the output
 
+Build Schedule
+-------------------------------
+Enter this as build schedule
+H/15 * * * *
+
+
 
 
