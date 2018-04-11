@@ -1,3 +1,13 @@
+General : To make entries to system variables
+search for edit system variables
+click on "edit system variables" - This will openup a window called system variables
+select the Advanced Tab
+click on "environment variable"
+In the second window click on "New"
+Enter variable name as "JAVA_HOME"
+value as "C:\Program Files\Java\jdk1.8.0_121"
+restart command prompt
+
 1. JDK 8 and install
 JAVA_HOME=C:\Program Files\Java\jdk1.8.0_121
 echo %JAVA_HOME%
