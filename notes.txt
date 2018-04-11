@@ -165,6 +165,34 @@ refresh your project dashboard and then you will see test result trends
 
 
 
+PIPELINE PROJECT
+
+
+Create a project
+-------------------------------
+Click on new item on jenkins dashboard
+enter a name for your project (projectpipeline)
+select pipeline
+click OK
+This will take you to the project configuration page
+click save
+your project project1 will show up on the home page of jenkins/dashboard
+
+Enter my pipeline script
+------------------------
+dashboard -> click on project pipeline -> configure 
+Scroll down to go to pipeline script
+Choose Pipeline script
+
+node {
+   stage('Source checkout') {
+      git 'https://github.com/AdityaSP/devopsdemo'
+   }
+}
+
+
+Save the project
+trigger  a build
 
 
 
