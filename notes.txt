@@ -61,8 +61,11 @@ click on the build number and it will show you the output
 
 Build Schedule
 -------------------------------
+Click on the project 
+Select Build periodically
 Enter this as build schedule
 H/15 * * * *
+click on save
 
 Configuring a build step
 -------------------------------
