@@ -139,7 +139,7 @@ NB : Triggers : select Always
 
 Extended Email notification configure on your project
 -------------------------------------
-dashboard-> Project1-> configure-> postbuild action -> extended email notification
+dashboard-> Project1-> configure-> postbuild action -> Editable email notification
 project recipient list : sp.aditya@gmail.com
 Attach build log : yes
 
