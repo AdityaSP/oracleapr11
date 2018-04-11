@@ -77,7 +77,18 @@ http://www-us.apache.org/dist/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bi
 edit PATH variable and add ;D:\sw\apache-maven-3.3.9\bin
 
 
+Configuring Maven
+------------------------------
+(Hint: Similar to Git configuration)
 
+Configuring a build step
+------------------------------
+dashboard -> click on project1 -> configure -> under build heading -> Add a build step -> Invoke top level maven targets
+Maven : maven that you have configured in the above step
+
+Goals: install
+
+Save
 
 
 
