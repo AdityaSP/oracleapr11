@@ -100,6 +100,22 @@ Configuring a post build action
 6. Observe : *.jar in ~/.jenkins/jobs/Project1/<jobnumber>/archive/
 
 
+Configure email notification
+----------------------------
+
+1. dashboard -> manage jenkins -> configure system -> scroll down to email notifications
+smtp server : smtp.gmail.com
+use smtp authentication : yes
+username : sp.aditya@gmail.com
+password : asljkdfl;ajsdpoqiwerkljasdf
+use ssl : yes
+port : 465
+reply to : sp.aditya@gmail.com
+
+select test configuration
+send test email after entering a reciepient address
+
+
 
 
 
