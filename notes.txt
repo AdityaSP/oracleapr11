@@ -90,6 +90,15 @@ Goals: install
 
 Save
 
+Configuring a post build action
+------------------------------
+1. dashboard -> click on project1 -> configure -> postbuild actions -> archive artifacts
+2. Files to archive target/*jar 
+3. (optional) select do not fail build
+4. Save
+5. trigger a build
+6. Observe : *.jar in ~/.jenkins/jobs/Project1/<jobnumber>/archive/
+
 
 
 
