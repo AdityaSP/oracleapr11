@@ -64,6 +64,24 @@ Build Schedule
 Enter this as build schedule
 H/15 * * * *
 
+Configuring a build step
+-------------------------------
+Maven project
+http://www-us.apache.org/dist/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.zip
+
+1. MAVEN_HOME=D:\sw\apache-maven-3.3.9
+2. update your path entries
+edit PATH variable and add ;D:\sw\apache-maven-3.3.9\bin
+
+
+
+
+
+
+
+
+
+
 
 
 
