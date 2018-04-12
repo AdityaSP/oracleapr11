@@ -252,12 +252,20 @@ Refresh the page you should see your node running
 
 Enable concurrent runs
 ---------------------------------
+dashboard -> Porject1-> configure
 select Execute concurrent builds if necessary
 Save
 Come back to dash board
 trigger multiple builds of the same project . In this case Project 1
 
 
+Sticky project runs - run a project on particular type of nodes
+-----------------------------------
+dashboard -> Porject1-> configure
+select Restrict where this project can be run
+label : localnode
 
+Save
+Trigger multiple builds and you observe that only 2 parallel (concurrent builds) are possible because our node has only two executors
 
 
