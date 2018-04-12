@@ -195,5 +195,25 @@ Save the project
 trigger  a build
 
 
+Usage of a tool in pipeline scripts
+-----------------------------------
+dashboard -> click on project pipeline -> configure 
+Scroll down to go to pipeline script
+Choose Pipeline script
+
+
+node {
+   def mvnHome
+   stage('Source checkout') { // for display purposes
+      git 'https://github.com/AdityaSP/devopsdemo'
+      mvnHome = tool 'maven'
+   }
+   stage('Build') {
+         bat(/"${mvnHome}\bin\mvn" install/)
+    }
+}
+
+Save the project
+trigger  a build
 
 
