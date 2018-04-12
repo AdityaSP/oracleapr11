@@ -234,4 +234,23 @@ node {
 }
 
 
+Configure a node
+-----------------------------
+dashboard -> Manage Jenkins -> Manage node - > new node
+Screen 1
+name of the node : localnode
+select Permanent node
+
+Screen 2
+# executors : 2
+Remote Directory : E:/remoteapr12
+(click on the ? and download agent.jar and place it in E:\\agentjar folder)
+Launch command : java -jar E:\\agentjar\\agent.jar
+
+Save
+Refresh the page you should see your node running
+
+
+
+
 
