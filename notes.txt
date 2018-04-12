@@ -394,3 +394,19 @@ node('master') {
 Check console output at $BUILD_URL to view the results.''', subject: '$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!', to: 'sp.aditya@gmail.com'
     }
 }
+
+Pull pipeline script from git
+------------------------------
+1.create a new pipeline project and name it pipeline-from-git
+2. in the configuration page of the project pipeline-from-git scroll down till pipeline
+3. choose pipeline script from scm
+https://github.com/AdityaSP/buildcode already has pipeline script Jenkinsfile at the root location
+4. choose git
+5. enter git url as https://github.com/AdityaSP/buildcode
+6. Save
+7. Trigger the build run and see it pick from git
+
+
+
+
+
