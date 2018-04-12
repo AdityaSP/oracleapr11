@@ -216,4 +216,22 @@ node {
 Save the project
 trigger  a build
 
+Archiving the artifacts
+------------------------
+
+node {
+   def mvnHome
+   stage('Source checkout') { // for display purposes
+      git 'https://github.com/AdityaSP/devopsdemo'
+      mvnHome = tool 'maven'
+   }
+   stage('Build') {
+         bat(/"${mvnHome}\bin\mvn" install/)
+    }
+    stage('Archive'){
+        archiveArtifacts allowEmptyArchive: true, artifacts: 'target/*.jar'
+    }
+}
+
+
 
