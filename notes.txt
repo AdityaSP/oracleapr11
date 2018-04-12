@@ -269,3 +269,13 @@ Save
 Trigger multiple builds and you observe that only 2 parallel (concurrent builds) are possible because our node has only two executors
 
 
+
+Sticky runs for project pipeline runs
+-------------------------------------
+# just mention the name of the node in paranthesis along with node
+...
+node('master')
+...
+
+
+
