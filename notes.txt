@@ -250,6 +250,13 @@ Launch command : java -jar E:\\agentjar\\agent.jar
 Save
 Refresh the page you should see your node running
 
+Enable concurrent runs
+---------------------------------
+select Execute concurrent builds if necessary
+Save
+Come back to dash board
+trigger multiple builds of the same project . In this case Project 1
+
 
 
 
